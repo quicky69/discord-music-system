@@ -1,83 +1,83 @@
 {
     "messages": {
-        "noPrivateMessages": "I do not reply to private messages.",
-        "voiceChannelNeeded": "You need to be in a voice channel to use this command.",
-        "cannotConnect": "I cannot connect to your voice channel, make sure I have the proper permissions!",
-        "noArgs": "You have to enter a search term.",
-        "sameVoiceChannel": "You must be in the same vocal channel as the bot to be able to listen to music.",
-        "nothingPlaying": "There is nothing currently playing.",
-        "noMoreSongs": "There is no more songs in the playlist.",
-        "volBeetween": "Volume must be a number between `0` and `100`!",
-        "validNumberPosition": "The position must be a valid number higher than `0`.",
-        "couldNotBeFound": "This sound could not be found.",
-        "restrictedOrNotFound": "This song is restricted or could not be found!",
-        "hasBeenAdded": "has been added to the queue.",
-        "errorWhileParsingVideo": "An error occured while searching the video.",
-        "errorWhileParsingPlaylist": "An error occured while parsing the playlist songs."
+        "noPrivateMessages": "Nu poti rula comenzi in DM!.",
+        "voiceChannelNeeded": "Trebuie sa fii conectat pe un canal de voce pentru a folosi aceasta comanda.",
+        "cannotConnect": "Nu ma pot conecta pe canalul tau de voce!",
+        "noArgs": "Trebuie sa scrii minim un cuvant pentru a cauta.",
+        "sameVoiceChannel": "Trebuie sa fii pe acelasi canal de voce cu bot-ul.",
+        "nothingPlaying": "Nu este nicio melodie in redare.",
+        "noMoreSongs": "Nu mai sunt melodii in playlist.",
+        "volBeetween": "Volumul trebuie sa fie cuprins intre `0` si `100`!",
+        "validNumberPosition": "Pozitia trebuie sa fie un numar mai mare de `0`.",
+        "couldNotBeFound": "Piesa nu a fost gasita.",
+        "restrictedOrNotFound": "Piesa este restrictionata (canal privat) sau nu a putut fi gasita",
+        "hasBeenAdded": "a fost adaugata in lista.",
+        "errorWhileParsingVideo": "S-a produs o eroare la redarea acestei melodii.",
+        "errorWhileParsingPlaylist": "S-a produs o eroare la redarea acestui playlist."
     },
     "embeds": {
         "createdMusicPlayer": {
             "title": "Info",
-            "description": "The `music player` has been **created**!"
+            "description": "Bot-ul a intrat pe canalul de voce!"
         },
         "nowPlaying": {
-            "title": "🎵 Now playing",
-            "videoLink": "Video link",
-            "channelLink": "Channel link",
-            "remainingTime": "Time remaining:",
+            "title": "🎵 Se redă",
+            "videoLink": "Link melodie",
+            "channelLink": "Link canal",
+            "remainingTime": "Timp rămas:",
             "live": "◉ LIVE"
         },
         "skipSong": {
-            "askedBy": "Asked by",
-            "beenSkipped": "has been skipped."
+            "askedBy": "",
+            "beenSkipped": "a fost sarita."
         },
         "volumeEmbed": {
-            "title": "🔊 Volume",
-            "changedFrom": "Changed from",
-            "to": "to"
+            "title": "🔊 Volum",
+            "changedFrom": "Volumul a fost schimbat de la",
+            "to": "la"
         },
         "pauseEmbed": {
             "title": "Info",
-            "description": "**⏸ Paused the music.**",
-            "askedBy": "Asked by"
+            "description": "**⏸ Player-ul a fost pus in pauza.**",
+            "askedBy": ""
         },
         "resumeEmbed": {
             "title": "Info",
-            "description": "**▶ Resumed the music.**",
-            "askedBy": "Asked by"
+            "description": "**▶ Player-ul a fost pornit.**",
+            "askedBy": ""
         },
         "removeEmbed": {
-            "title": "🚫 Removed",
-            "removedBy": "🔎 Removed by",
-            "published": "Published",
-            "views": "Views"
+            "title": "🚫 Melodie stearsa",
+            "removedBy": "🔎 Stearsa de catre",
+            "published": "Publicata pe",
+            "views": "Vizualizari"
         },
         "errorEmbed": {
-            "title": "Error"
+            "title": "Eroare"
         },
         "playerDestroyedEmbed": {
             "author": "Info",
-            "description": "The `music player` has been **destroyed**!"
+            "description": "Player-ul a fost scos!"
         },
         "lyricsEmbed": {
-            "searching": "Searching...",
-            "askedBy": "Asked by "
+            "searching": "Se cauta...",
+            "askedBy": " "
         },
         "playEmbed": {
-            "addedBy": "🔎 Added by",
-            "luckySearch": "with lucky search.",
-            "published": "Published",
-            "views": "Views"
+            "addedBy": "🔎 Adaugata de",
+            "luckySearch": "",
+            "published": "Publicata pe",
+            "views": "Vizualizari"
         },
         "queueEmbed": {
-            "queue": "queue"
+            "queue": "coadă"
         },
         "addEmbed": {
-            "playlist": "The playlist",
-            "hasBeenAdded": "has been added to the queue."
+            "playlist": "Playlist",
+            "hasBeenAdded": "a fost adaugat."
         }
     },
     "presence": {
-        "nothing": "🎵 Nothing"
+        "nothing": ""
     }
 }
